@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   
+<head>   
+   <link type="text/css" rel="stylesheet" href="ckplayer.css" />
+   <script type="text/javascript" src="ckplayer.js" charset="UTF-8"></script>
+   <div class="video" style="width: 600px;height: 400px;">Player</div>
+   <script type="text/javascript">
+    //定义一个变量：videoObject，用来做为视频初始化配置
+    var videoObject = {
+        container: '.video', //“#”代表容器的ID，“.”或“”代表容器的class
+        video: 'video.mp4'//视频地址
+    };
+    var player = new ckplayer(videoObject);//初始化播放器
+      player.bar(false);
+      player.rightBar(false);
+      player.full();
+      player.play();
+      player.webFull()
+      player.loop(true);
+
+</script>
+   
+</body>
+</html>
