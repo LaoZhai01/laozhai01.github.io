@@ -54,7 +54,7 @@
 <script type="text/javascript">
     function runtime(){
         // 初始时间，日/月/年 时:分:秒
-        X = new Date("6/4/2022 15:00:00");
+        X = new Date("4/6/2022 15:00:00");
         Y = new Date();
         T = (Y.getTime()-X.getTime());
         M = 24*60*60*1000;
@@ -66,7 +66,7 @@
         C = Math.floor((b-B)*60);
         D = Math.floor((c-C)*60);
         //信息写入到DIV中
-        span.innerHTML = "本站勉强运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"
+        span.innerHTML = "本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"
     }
     setInterval(runtime, 1000);
 </script>
