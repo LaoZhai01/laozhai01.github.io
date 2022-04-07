@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+	</head>
+	<body>
+<h1 style="text-align:center;">
+	<span style="font-size:32px;color:#E56600;">心有余而力不足，暂停服务，感谢理解</span> 
+</h1>
+<h1 style="text-align:center;">
+	<span style="font-size:32px;color:#E56600;"></span> 
+</h1>
+<p style="text-align:center;">
+	   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv" style='display:none'>本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+	<br />
+</p>
+<p style="text-align:center;">
+	  <span id="span"></span>
+<script type="text/javascript">
+    function runtime(){
+        // 初始时间，日/月/年 时:分:秒
+        X = new Date("4/6/2022 15:00:00");
+        Y = new Date();
+        T = (Y.getTime()-X.getTime());
+        M = 24*60*60*1000;
+        a = T/M;
+        A = Math.floor(a);
+        b = (a-A)*24;
+        B = Math.floor(b);
+        c = (b-B)*60;
+        C = Math.floor((b-B)*60);
+        D = Math.floor((c-C)*60);
+        //信息写入到DIV中
+        span.innerHTML = "本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"
+    }
+    setInterval(runtime, 1000);
+</script>
+	<br />
+</p>
+
+	</body>
+</html>
